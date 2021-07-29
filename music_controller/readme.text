@@ -1,0 +1,5 @@
+django-admin startproject music_controller
+django-admin startapp api (inside music_controller folder)
+python3 music_controller/manage.py makemigrations 
+python3 music_controller/manage.py migrate
+python3 music_controller/manage.py runserver
