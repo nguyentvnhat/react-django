@@ -1,13 +1,19 @@
-import React, { Component } from "react"
-import { render } from "react-dom"
-
+import React, { Component } from "react";
+import { render } from "react-dom";
+import HomePage from "./HomePage";
+import RoomJoinPage from "./RoomJoinPage";
+import CreateRoomPage from "./CreateRoomPage";
 class App extends Component {
     constructor(props) {
         super(props);
     }
 
     render() {
-        return <h1>Hello React Code</h1>;
+        return (
+            <div>
+                <HomePage/>
+            </div>
+        )
     }
 }
 
